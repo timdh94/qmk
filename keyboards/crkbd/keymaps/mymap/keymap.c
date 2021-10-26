@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-        RESET, DYN_MACRO_PLAY1, DYN_MACRO_PLAY2, XXXXXXX, DYN_REC_START1, DYN_REC_START2,      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, DYN_REC_STOP,
+        KC_ESC, DYN_MACRO_PLAY1, DYN_MACRO_PLAY2, XXXXXXX, DYN_REC_START1, DYN_REC_START2,      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, DYN_REC_STOP,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LEAD,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
